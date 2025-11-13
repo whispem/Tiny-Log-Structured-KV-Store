@@ -1,9 +1,6 @@
-mod kv_store;
-
+use tiny_log_kv::kv_store::KvStore;
 use clap::{Parser, Subcommand};
-use kv_store::KvStore;
 
-/// Simple command-line interface with subcommands
 #[derive(Parser)]
 #[command(author, version, about = "Tiny Log-Structured KV Store", long_about = None)]
 struct Cli {
