@@ -8,7 +8,6 @@ use std::path::Path;
 pub struct KvStore {
     pub map: HashMap<String, String>,
     log_file: File,
-    log_path: String,
 }
 
 impl KvStore {
@@ -23,7 +22,7 @@ impl KvStore {
             .append(true)
             .open(&log_path)?;
 
-        Ok(KvStore { map, log_file, log_path })
+        Ok(KvStore { map, log_file })
     }
 
     /// Replay the log from disk to rebuild state
