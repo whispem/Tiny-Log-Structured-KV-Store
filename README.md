@@ -424,7 +424,7 @@ Each project builds on the previous one! 🚀
 ## 📬 Contact
 
 - 🐛 **Issues:** [GitHub Issues](https://github.com/whispem/tiny-log-kv/issues)
-- 💬 **Discussions:** [GitHub Discussions](https://github.com/whispem/tiny-log-kv/discussions)
+- 💬 **Suggestions:** Open a discussion!
 - 📧 **Email:** contact.whispem@gmail.com
 
 ---
